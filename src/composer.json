@@ -1,0 +1,21 @@
+{
+    "name": "popcorn/auth",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Popcorn\\Auth\\": "."
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael McGrath",
+            "email": "mokeseven7@gmail.com"
+        }
+    ],
+    "require": {
+        "strobotti/php-jwk": "^1.4",
+        "guzzlehttp/guzzle": "^7.7",
+        "firebase/php-jwt": "^6.5"
+    }
+}

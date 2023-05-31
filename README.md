@@ -21,7 +21,7 @@ The IAM policies are kept simple for the purpose of this demo, but will be somet
     {
       "Action" :"execute-api:Invoke",
       "Effect":"Allow",
-      "Resource":"<arn_from_request">,
+      "Resource":"<arn_from_request",
     }
   ]
 }
